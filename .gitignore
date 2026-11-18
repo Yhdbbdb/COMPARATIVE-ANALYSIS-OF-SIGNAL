@@ -1,0 +1,28 @@
+# Local operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+
+# Local credentials (keep a sanitized example if needed)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python local environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Use these explicit locations for private data and disposable runs.
+# Do not broadly ignore datasets, models, notebooks, or figures needed to reproduce results.
+data/private/
+outputs/local/
